@@ -1,4 +1,4 @@
-from airflow import DAG
+from airflow import DA
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
 from airflow.hooks.base_hook import BaseHook
