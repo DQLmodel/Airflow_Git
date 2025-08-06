@@ -1,0 +1,30 @@
+[2025-08-06T15:21:57.568+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mssql_to_snowflake_retail_sales.extract_data_from_mssql manual__2025-08-06T09:51:54.099852+00:00 [queued]>
+[2025-08-06T15:21:57.571+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mssql_to_snowflake_retail_sales.extract_data_from_mssql manual__2025-08-06T09:51:54.099852+00:00 [queued]>
+[2025-08-06T15:21:57.571+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2025-08-06T15:21:57.578+0530] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): extract_data_from_mssql> on 2025-08-06 09:51:54.099852+00:00
+[2025-08-06T15:21:57.582+0530] {standard_task_runner.py:60} INFO - Started process 16281 to run task
+[2025-08-06T15:21:57.587+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'mssql_to_snowflake_retail_sales', 'extract_data_from_mssql', 'manual__2025-08-06T09:51:54.099852+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/mssql_to_snowflake_retail_sales.py', '--cfg-path', '/var/folders/mm/zzj9zbr97855tkztpv4m513r0000gp/T/tmpqsjajfy3']
+[2025-08-06T15:21:57.589+0530] {standard_task_runner.py:88} INFO - Job 8: Subtask extract_data_from_mssql
+[2025-08-06T15:21:57.613+0530] {task_command.py:423} INFO - Running <TaskInstance: mssql_to_snowflake_retail_sales.extract_data_from_mssql manual__2025-08-06T09:51:54.099852+00:00 [running]> on host dq-macbooks-macbook-air-5.local
+[2025-08-06T15:21:57.641+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your-email@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mssql_to_snowflake_retail_sales' AIRFLOW_CTX_TASK_ID='extract_data_from_mssql' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T09:51:54.099852+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T09:51:54.099852+00:00'
+[2025-08-06T15:21:57.643+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py", line 67, in extract_data_from_mssql
+    import pyodbc
+ImportError: dlopen(/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/pyodbc.cpython-310-darwin.so, 0x0002): Library not loaded: /opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib
+  Referenced from: <B0C2BFCC-FE64-3B53-9DE8-6EA39AA036E8> /Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/pyodbc.cpython-310-darwin.so
+  Reason: tried: '/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file), '/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file)
+[2025-08-06T15:21:57.646+0530] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=mssql_to_snowflake_retail_sales, task_id=extract_data_from_mssql, execution_date=20250806T095154, start_date=20250806T095157, end_date=20250806T095157
+[2025-08-06T15:21:57.650+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task extract_data_from_mssql (dlopen(/Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/pyodbc.cpython-310-darwin.so, 0x0002): Library not loaded: /opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib
+  Referenced from: <B0C2BFCC-FE64-3B53-9DE8-6EA39AA036E8> /Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/pyodbc.cpython-310-darwin.so
+  Reason: tried: '/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file), '/opt/homebrew/opt/unixodbc/lib/libodbc.2.dylib' (no such file); 16281)
+[2025-08-06T15:21:57.680+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-08-06T15:21:57.689+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

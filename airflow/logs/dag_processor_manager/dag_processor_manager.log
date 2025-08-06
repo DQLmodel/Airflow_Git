@@ -1,0 +1,849 @@
+[2025-08-06T15:10:47.983+0530] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-08-06T15:10:47.984+0530] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-06T15:10:47.984+0530] {manager.py:471} INFO - Checking for new files in /Users/sureshduddu/Cursor/airflow/dags every 300 seconds
+[2025-08-06T15:10:47.984+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:10:47.984+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:10:49.807+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.72s           2025-08-06T09:40:49
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                0           0
+================================================================================
+[2025-08-06T15:11:21.619+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.69s           2025-08-06T09:41:21
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.85s           2025-08-06T09:40:51
+================================================================================
+[2025-08-06T15:11:31.919+0530] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-06T15:15:20.238+0530] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-08-06T15:15:20.239+0530] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-06T15:15:20.239+0530] {manager.py:471} INFO - Checking for new files in /Users/sureshduddu/Cursor/airflow/dags every 300 seconds
+[2025-08-06T15:15:20.239+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:15:20.242+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:15:21.781+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.47s           2025-08-06T09:45:21
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                0           0
+================================================================================
+[2025-08-06T15:15:53.334+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.48s           2025-08-06T09:45:53
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.83s           2025-08-06T09:45:23
+================================================================================
+[2025-08-06T15:16:24.918+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.50s           2025-08-06T09:46:24
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.82s           2025-08-06T09:45:55
+================================================================================
+[2025-08-06T15:16:57.512+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.93s           2025-08-06T09:46:57
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.94s           2025-08-06T09:46:26
+================================================================================
+[2025-08-06T15:17:29.386+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.61s           2025-08-06T09:47:29
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.96s           2025-08-06T09:46:59
+================================================================================
+[2025-08-06T15:18:01.013+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.37s           2025-08-06T09:48:01
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.84s           2025-08-06T09:47:30
+================================================================================
+[2025-08-06T15:18:32.627+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.52s           2025-08-06T09:48:32
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.90s           2025-08-06T09:48:02
+================================================================================
+[2025-08-06T15:19:04.220+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.49s           2025-08-06T09:49:04
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T09:48:34
+================================================================================
+[2025-08-06T15:19:20.115+0530] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-06T15:20:30.210+0530] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-08-06T15:20:30.210+0530] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-06T15:20:30.210+0530] {manager.py:471} INFO - Checking for new files in /Users/sureshduddu/Cursor/airflow/dags every 300 seconds
+[2025-08-06T15:20:30.211+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:20:30.211+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:20:31.795+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.49s           2025-08-06T09:50:31
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                0           0
+================================================================================
+[2025-08-06T15:21:03.940+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.38s           2025-08-06T09:51:03
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.82s           2025-08-06T09:50:33
+================================================================================
+[2025-08-06T15:21:23.022+0530] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-06T15:21:30.267+0530] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-08-06T15:21:30.267+0530] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-06T15:21:30.267+0530] {manager.py:471} INFO - Checking for new files in /Users/sureshduddu/Cursor/airflow/dags every 300 seconds
+[2025-08-06T15:21:30.268+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:21:30.268+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:21:31.643+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.30s           2025-08-06T09:51:31
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                0           0
+================================================================================
+[2025-08-06T15:22:03.372+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.59s           2025-08-06T09:52:03
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T09:51:33
+================================================================================
+[2025-08-06T15:22:35.772+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.22s           2025-08-06T09:52:35
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.87s           2025-08-06T09:52:05
+================================================================================
+[2025-08-06T15:23:07.884+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.83s           2025-08-06T09:53:07
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.04s           2025-08-06T09:52:37
+================================================================================
+[2025-08-06T15:23:39.727+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.54s           2025-08-06T09:53:39
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T09:53:09
+================================================================================
+[2025-08-06T15:24:11.716+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.72s           2025-08-06T09:54:11
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.02s           2025-08-06T09:53:40
+================================================================================
+[2025-08-06T15:24:43.558+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.71s           2025-08-06T09:54:43
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.98s           2025-08-06T09:54:13
+================================================================================
+[2025-08-06T15:25:15.662+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.95s           2025-08-06T09:55:15
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.05s           2025-08-06T09:54:45
+================================================================================
+[2025-08-06T15:25:47.398+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.61s           2025-08-06T09:55:47
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.77s           2025-08-06T09:55:16
+================================================================================
+[2025-08-06T15:26:19.135+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.66s           2025-08-06T09:56:19
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.77s           2025-08-06T09:55:49
+================================================================================
+[2025-08-06T15:26:30.815+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:26:30.829+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:26:50.900+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.67s           2025-08-06T09:56:50
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.83s           2025-08-06T09:56:21
+================================================================================
+[2025-08-06T15:27:22.629+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.65s           2025-08-06T09:57:22
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T09:56:52
+================================================================================
+[2025-08-06T15:27:54.655+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.93s           2025-08-06T09:57:54
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.87s           2025-08-06T09:57:24
+================================================================================
+[2025-08-06T15:28:26.323+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.59s           2025-08-06T09:58:26
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.07s           2025-08-06T09:57:56
+================================================================================
+[2025-08-06T15:28:58.067+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.67s           2025-08-06T09:58:58
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.39s           2025-08-06T09:58:28
+================================================================================
+[2025-08-06T15:29:29.919+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.76s           2025-08-06T09:59:29
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T09:58:59
+================================================================================
+[2025-08-06T15:30:02.142+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.13s           2025-08-06T10:00:02
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T09:59:31
+================================================================================
+[2025-08-06T15:30:35.991+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  3.75s           2025-08-06T10:00:35
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.29s           2025-08-06T10:00:04
+================================================================================
+[2025-08-06T15:31:07.912+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.82s           2025-08-06T10:01:07
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.13s           2025-08-06T10:00:38
+================================================================================
+[2025-08-06T15:31:31.026+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:31:31.034+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:31:39.524+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.53s           2025-08-06T10:01:39
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.83s           2025-08-06T10:01:09
+================================================================================
+[2025-08-06T15:32:11.164+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.56s           2025-08-06T10:02:11
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:01:41
+================================================================================
+[2025-08-06T15:32:43.084+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.84s           2025-08-06T10:02:43
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.85s           2025-08-06T10:02:13
+================================================================================
+[2025-08-06T15:33:14.884+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.71s           2025-08-06T10:03:14
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:02:44
+================================================================================
+[2025-08-06T15:33:46.712+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.73s           2025-08-06T10:03:46
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.54s           2025-08-06T10:03:17
+================================================================================
+[2025-08-06T15:34:18.793+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.00s           2025-08-06T10:04:18
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T10:03:48
+================================================================================
+[2025-08-06T15:34:50.441+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.56s           2025-08-06T10:04:50
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.90s           2025-08-06T10:04:20
+================================================================================
+[2025-08-06T15:35:22.179+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.66s           2025-08-06T10:05:22
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:04:52
+================================================================================
+[2025-08-06T15:35:53.965+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.71s           2025-08-06T10:05:53
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.82s           2025-08-06T10:05:24
+================================================================================
+[2025-08-06T15:36:25.635+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.59s           2025-08-06T10:06:25
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.84s           2025-08-06T10:05:55
+================================================================================
+[2025-08-06T15:36:31.725+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:36:31.733+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:36:57.380+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.66s           2025-08-06T10:06:57
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.00s           2025-08-06T10:06:27
+================================================================================
+[2025-08-06T15:37:29.624+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.16s           2025-08-06T10:07:29
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.96s           2025-08-06T10:06:59
+================================================================================
+[2025-08-06T15:38:02.011+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.29s           2025-08-06T10:08:02
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.94s           2025-08-06T10:07:30
+================================================================================
+[2025-08-06T15:38:33.779+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.72s           2025-08-06T10:08:33
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T10:08:03
+================================================================================
+[2025-08-06T15:39:05.979+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.11s           2025-08-06T10:09:05
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.85s           2025-08-06T10:08:35
+================================================================================
+[2025-08-06T15:39:37.749+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.66s           2025-08-06T10:09:37
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.93s           2025-08-06T10:09:07
+================================================================================
+[2025-08-06T15:40:09.671+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.81s           2025-08-06T10:10:09
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:09:39
+================================================================================
+[2025-08-06T15:40:42.092+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.34s           2025-08-06T10:10:42
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.84s           2025-08-06T10:10:11
+================================================================================
+[2025-08-06T15:41:13.910+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.73s           2025-08-06T10:11:13
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.87s           2025-08-06T10:10:44
+================================================================================
+[2025-08-06T15:41:32.148+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:41:32.156+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:41:45.630+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.64s           2025-08-06T10:11:45
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.60s           2025-08-06T10:11:16
+================================================================================
+[2025-08-06T15:42:17.900+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.18s           2025-08-06T10:12:17
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.03s           2025-08-06T10:11:47
+================================================================================
+[2025-08-06T15:42:49.923+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.93s           2025-08-06T10:12:49
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.31s           2025-08-06T10:12:20
+================================================================================
+[2025-08-06T15:43:21.718+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.72s           2025-08-06T10:13:21
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T10:12:51
+================================================================================
+[2025-08-06T15:43:53.448+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.67s           2025-08-06T10:13:53
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.82s           2025-08-06T10:13:23
+================================================================================
+[2025-08-06T15:44:25.674+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.14s           2025-08-06T10:14:25
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.06s           2025-08-06T10:13:55
+================================================================================
+[2025-08-06T15:44:57.499+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.74s           2025-08-06T10:14:57
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.77s           2025-08-06T10:14:27
+================================================================================
+[2025-08-06T15:45:29.405+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.82s           2025-08-06T10:15:29
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T10:14:59
+================================================================================
+[2025-08-06T15:46:01.258+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.78s           2025-08-06T10:16:01
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.92s           2025-08-06T10:15:31
+================================================================================
+[2025-08-06T15:46:33.001+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.65s           2025-08-06T10:16:33
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T10:16:03
+================================================================================
+[2025-08-06T15:46:34.035+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:46:34.043+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:47:04.726+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.65s           2025-08-06T10:17:04
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:16:34
+================================================================================
+[2025-08-06T15:47:37.220+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.42s           2025-08-06T10:17:37
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.77s           2025-08-06T10:17:06
+================================================================================
+[2025-08-06T15:48:09.586+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.29s           2025-08-06T10:18:09
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.83s           2025-08-06T10:17:39
+================================================================================
+[2025-08-06T15:48:41.298+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.64s           2025-08-06T10:18:41
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:18:11
+================================================================================
+[2025-08-06T15:49:13.076+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.71s           2025-08-06T10:19:13
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:18:43
+================================================================================
+[2025-08-06T15:49:45.079+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.92s           2025-08-06T10:19:45
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.27s           2025-08-06T10:19:15
+================================================================================
+[2025-08-06T15:50:16.954+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.78s           2025-08-06T10:20:16
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.86s           2025-08-06T10:19:46
+================================================================================
+[2025-08-06T15:50:48.727+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.69s           2025-08-06T10:20:48
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.88s           2025-08-06T10:20:18
+================================================================================
+[2025-08-06T15:51:20.895+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.10s           2025-08-06T10:21:20
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:20:50
+================================================================================
+[2025-08-06T15:51:34.218+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:51:34.230+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:51:53.066+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.09s           2025-08-06T10:21:53
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:21:22
+================================================================================
+[2025-08-06T15:52:25.104+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.96s           2025-08-06T10:22:25
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:21:54
+================================================================================
+[2025-08-06T15:52:56.686+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.50s           2025-08-06T10:22:56
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T10:22:26
+================================================================================
+[2025-08-06T15:53:28.468+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.70s           2025-08-06T10:23:28
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T10:22:58
+================================================================================
+[2025-08-06T15:54:00.327+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.78s           2025-08-06T10:24:00
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.16s           2025-08-06T10:23:30
+================================================================================
+[2025-08-06T15:54:32.141+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.73s           2025-08-06T10:24:32
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T10:24:02
+================================================================================
+[2025-08-06T15:55:03.972+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.75s           2025-08-06T10:25:03
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:24:33
+================================================================================
+[2025-08-06T15:55:35.925+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.94s           2025-08-06T10:25:35
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.84s           2025-08-06T10:25:05
+================================================================================
+[2025-08-06T15:56:07.722+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.71s           2025-08-06T10:26:07
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.85s           2025-08-06T10:25:37
+================================================================================
+[2025-08-06T15:56:34.919+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:56:34.935+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T15:56:39.414+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.61s           2025-08-06T10:26:39
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.84s           2025-08-06T10:26:09
+================================================================================
+[2025-08-06T15:57:11.254+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.77s           2025-08-06T10:27:11
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.79s           2025-08-06T10:26:41
+================================================================================
+[2025-08-06T15:57:43.264+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.94s           2025-08-06T10:27:43
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.96s           2025-08-06T10:27:13
+================================================================================
+[2025-08-06T15:58:15.501+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.17s           2025-08-06T10:28:15
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.01s           2025-08-06T10:27:45
+================================================================================
+[2025-08-06T15:58:47.488+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.92s           2025-08-06T10:28:47
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.93s           2025-08-06T10:28:17
+================================================================================
+[2025-08-06T15:59:19.317+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.74s           2025-08-06T10:29:19
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.85s           2025-08-06T10:28:49
+================================================================================
+[2025-08-06T15:59:50.914+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.52s           2025-08-06T10:29:50
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.81s           2025-08-06T10:29:21
+================================================================================
+[2025-08-06T16:00:23.007+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.02s           2025-08-06T10:30:23
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.76s           2025-08-06T10:29:52
+================================================================================
+[2025-08-06T16:00:54.923+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.84s           2025-08-06T10:30:54
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.80s           2025-08-06T10:30:24
+================================================================================
+[2025-08-06T16:01:27.139+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.13s           2025-08-06T10:31:27
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.82s           2025-08-06T10:30:56
+================================================================================
+[2025-08-06T16:01:35.285+0530] {manager.py:738} INFO - Searching for files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T16:01:35.296+0530] {manager.py:741} INFO - There are 2 files in /Users/sureshduddu/Cursor/airflow/dags
+[2025-08-06T16:01:58.802+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  1.57s           2025-08-06T10:31:58
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  1.10s           2025-08-06T10:31:29
+================================================================================
+[2025-08-06T16:02:31.798+0530] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py                           1           0  2.91s           2025-08-06T10:32:31
+/Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_example.py                                1           0  0.78s           2025-08-06T10:32:00
+================================================================================

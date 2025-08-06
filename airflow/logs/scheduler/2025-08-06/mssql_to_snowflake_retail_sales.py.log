@@ -1,0 +1,636 @@
+[2025-08-06T15:10:48.983+0530] {processor.py:161} INFO - Started process (PID=14375) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:10:48.985+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:10:48.985+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:48.985+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:10:49.359+0530] {logging_mixin.py:188} WARNING - /Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (21.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-08-06T15:10:49.468+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:10:49.546+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.546+0530] {override.py:1769} INFO - Created Permission View: can delete on DAG:mssql_to_snowflake_retail_sales
+[2025-08-06T15:10:49.551+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.551+0530] {override.py:1769} INFO - Created Permission View: can read on DAG:mssql_to_snowflake_retail_sales
+[2025-08-06T15:10:49.555+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.554+0530] {override.py:1769} INFO - Created Permission View: can edit on DAG:mssql_to_snowflake_retail_sales
+[2025-08-06T15:10:49.555+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.555+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:10:49.559+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.559+0530] {dag.py:3069} INFO - Creating ORM DAG for mssql_to_snowflake_retail_sales
+[2025-08-06T15:10:49.559+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:10:49.559+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:10:49.567+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.584 seconds
+[2025-08-06T15:11:20.555+0530] {processor.py:161} INFO - Started process (PID=14432) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:11:20.556+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:11:20.556+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:11:20.556+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:11:21.129+0530] {logging_mixin.py:188} WARNING - /Users/sureshduddu/Cursor/airflow/.venv/lib/python3.10/site-packages/snowflake/connector/options.py:104 UserWarning: You have an incompatible version of 'pyarrow' installed (21.0.0), please install a version that adheres to: 'pyarrow<19.0.0; extra == "pandas"'
+[2025-08-06T15:11:21.315+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:11:21.356+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:11:21.355+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:11:21.362+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:11:21.362+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:11:21.369+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.815 seconds
+[2025-08-06T15:15:20.920+0530] {processor.py:161} INFO - Started process (PID=15529) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:20.921+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:15:20.922+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:20.921+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:21.532+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:21.570+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:21.569+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:15:21.574+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:21.574+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:15:21.582+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.662 seconds
+[2025-08-06T15:15:52.433+0530] {processor.py:161} INFO - Started process (PID=15595) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:52.434+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:15:52.434+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:52.434+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:53.058+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:15:53.098+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:53.097+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:15:53.103+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:15:53.103+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:15:53.111+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.679 seconds
+[2025-08-06T15:16:24.009+0530] {processor.py:161} INFO - Started process (PID=15641) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:24.010+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:16:24.010+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:24.010+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:24.635+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:24.677+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:24.677+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:16:24.681+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:24.681+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:16:24.689+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.681 seconds
+[2025-08-06T15:16:56.458+0530] {processor.py:161} INFO - Started process (PID=15705) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:56.460+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:16:56.460+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:56.460+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:57.032+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:16:57.080+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:57.080+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:16:57.085+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:16:57.085+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:16:57.095+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.638 seconds
+[2025-08-06T15:17:28.399+0530] {processor.py:161} INFO - Started process (PID=15763) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:17:28.400+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:17:28.400+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:17:28.400+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:17:29.119+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:17:29.162+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:17:29.162+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:17:29.167+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:17:29.166+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:17:29.174+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.775 seconds
+[2025-08-06T15:18:00.236+0530] {processor.py:161} INFO - Started process (PID=15832) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:00.237+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:18:00.237+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:00.237+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:00.763+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:00.803+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:00.802+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:18:00.807+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:00.807+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:18:00.814+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.578 seconds
+[2025-08-06T15:18:31.739+0530] {processor.py:161} INFO - Started process (PID=15900) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:31.739+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:18:31.740+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:31.740+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:32.392+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:18:32.433+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:32.432+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:18:32.438+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:18:32.437+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:18:32.445+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.707 seconds
+[2025-08-06T15:19:03.306+0530] {processor.py:161} INFO - Started process (PID=15949) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:19:03.307+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:19:03.307+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:19:03.307+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:19:03.918+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:19:03.955+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:19:03.955+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:19:03.962+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:19:03.961+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:19:03.969+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.663 seconds
+[2025-08-06T15:20:31.095+0530] {processor.py:161} INFO - Started process (PID=16124) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:20:31.096+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:20:31.097+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:20:31.097+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:20:31.531+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:20:31.537+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:20:31.537+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:20:31.569+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:20:31.569+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:20:31.577+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.482 seconds
+[2025-08-06T15:21:03.160+0530] {processor.py:161} INFO - Started process (PID=16187) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:03.161+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:21:03.161+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:03.161+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:03.669+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:03.751+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:03.751+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:21:03.755+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:03.754+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:21:03.761+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.602 seconds
+[2025-08-06T15:21:30.956+0530] {processor.py:161} INFO - Started process (PID=16239) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:30.957+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:21:30.957+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:30.957+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:31.394+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:21:31.399+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:31.399+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:21:31.429+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:21:31.429+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:21:31.438+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.483 seconds
+[2025-08-06T15:22:02.580+0530] {processor.py:161} INFO - Started process (PID=16339) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:02.581+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:22:02.582+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:02.581+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:03.079+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:03.166+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:03.165+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:22:03.170+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:03.170+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:22:03.177+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.598 seconds
+[2025-08-06T15:22:34.711+0530] {processor.py:161} INFO - Started process (PID=16743) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:34.713+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:22:34.713+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:34.713+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:35.521+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:22:35.564+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:35.563+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:22:35.569+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:22:35.569+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:22:35.576+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.865 seconds
+[2025-08-06T15:23:06.950+0530] {processor.py:161} INFO - Started process (PID=16931) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:06.953+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:23:06.953+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:06.953+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:07.642+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:07.686+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:07.686+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:23:07.691+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:07.691+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:23:07.698+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.749 seconds
+[2025-08-06T15:23:39.018+0530] {processor.py:161} INFO - Started process (PID=16954) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:39.019+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:23:39.020+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:39.020+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:39.507+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:23:39.547+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:39.547+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:23:39.551+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:23:39.551+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:23:39.557+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.540 seconds
+[2025-08-06T15:24:10.844+0530] {processor.py:161} INFO - Started process (PID=16977) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:10.846+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:24:10.846+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:10.846+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:11.405+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:11.446+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:11.446+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:24:11.450+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:11.450+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:24:11.458+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.614 seconds
+[2025-08-06T15:24:42.785+0530] {processor.py:161} INFO - Started process (PID=17073) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:42.787+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:24:42.787+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:42.787+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:43.331+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:24:43.371+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:43.371+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:24:43.376+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:24:43.376+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:24:43.383+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.598 seconds
+[2025-08-06T15:25:14.753+0530] {processor.py:161} INFO - Started process (PID=17098) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:14.755+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:25:14.755+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:14.755+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:15.418+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:15.462+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:15.462+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:25:15.466+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:15.466+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:25:15.473+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.720 seconds
+[2025-08-06T15:25:46.651+0530] {processor.py:161} INFO - Started process (PID=17145) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:46.652+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:25:46.652+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:46.652+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:47.175+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:25:47.217+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:47.216+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:25:47.221+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:25:47.221+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:25:47.227+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.577 seconds
+[2025-08-06T15:26:18.328+0530] {processor.py:161} INFO - Started process (PID=17195) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:18.330+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:26:18.330+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:18.330+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:18.875+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:18.914+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:18.914+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:26:18.918+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:18.918+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:26:18.926+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.597 seconds
+[2025-08-06T15:26:50.066+0530] {processor.py:161} INFO - Started process (PID=17235) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:50.069+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:26:50.069+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:50.069+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:50.662+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:26:50.704+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:50.703+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:26:50.708+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:26:50.708+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:26:50.716+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.650 seconds
+[2025-08-06T15:27:21.865+0530] {processor.py:161} INFO - Started process (PID=17290) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:21.866+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:27:21.867+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:21.866+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:22.408+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:22.448+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:22.447+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:27:22.451+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:22.451+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:27:22.458+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.593 seconds
+[2025-08-06T15:27:53.646+0530] {processor.py:161} INFO - Started process (PID=17342) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:53.647+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:27:53.648+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:53.648+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:54.353+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:27:54.395+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:54.395+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:27:54.400+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:27:54.400+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:27:54.407+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.762 seconds
+[2025-08-06T15:28:25.567+0530] {processor.py:161} INFO - Started process (PID=17357) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:25.568+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:28:25.568+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:25.568+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:26.089+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:26.130+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:26.130+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:28:26.134+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:26.134+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:28:26.141+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.574 seconds
+[2025-08-06T15:28:57.276+0530] {processor.py:161} INFO - Started process (PID=17389) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:57.277+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:28:57.277+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:57.277+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:57.844+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:28:57.884+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:57.884+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:28:57.888+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:28:57.888+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:28:57.895+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.620 seconds
+[2025-08-06T15:29:29.082+0530] {processor.py:161} INFO - Started process (PID=17408) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:29:29.084+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:29:29.085+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:29:29.085+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:29:29.653+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:29:29.693+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:29:29.693+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:29:29.697+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:29:29.697+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:29:29.704+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.622 seconds
+[2025-08-06T15:30:01.053+0530] {processor.py:161} INFO - Started process (PID=17494) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:01.055+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:30:01.055+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:01.055+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:01.840+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:01.884+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:01.884+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:30:01.891+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:01.891+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:30:01.898+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.846 seconds
+[2025-08-06T15:30:34.867+0530] {processor.py:161} INFO - Started process (PID=17984) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:34.869+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:30:34.870+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:34.869+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:35.632+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:30:35.686+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:35.686+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:30:35.693+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:30:35.693+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:30:35.701+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.836 seconds
+[2025-08-06T15:31:06.980+0530] {processor.py:161} INFO - Started process (PID=18225) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:06.982+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:31:06.983+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:06.982+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:07.678+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:07.719+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:07.719+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:31:07.723+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:07.723+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:31:07.730+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.751 seconds
+[2025-08-06T15:31:38.799+0530] {processor.py:161} INFO - Started process (PID=18260) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:38.802+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:31:38.803+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:38.802+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:39.300+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:31:39.341+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:39.341+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:31:39.346+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:31:39.346+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:31:39.353+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.554 seconds
+[2025-08-06T15:32:10.438+0530] {processor.py:161} INFO - Started process (PID=18278) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:10.440+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:32:10.440+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:10.440+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:10.942+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:10.982+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:10.982+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:32:10.988+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:10.988+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:32:10.994+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.556 seconds
+[2025-08-06T15:32:42.170+0530] {processor.py:161} INFO - Started process (PID=18321) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:42.172+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:32:42.172+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:42.172+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:42.845+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:32:42.885+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:42.885+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:32:42.889+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:32:42.889+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:32:42.896+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.727 seconds
+[2025-08-06T15:33:14.102+0530] {processor.py:161} INFO - Started process (PID=18353) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:14.103+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:33:14.104+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:14.104+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:14.637+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:14.680+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:14.680+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:33:14.684+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:14.684+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:33:14.691+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.590 seconds
+[2025-08-06T15:33:45.889+0530] {processor.py:161} INFO - Started process (PID=18390) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:45.890+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:33:45.891+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:45.891+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:46.460+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:33:46.501+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:46.501+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:33:46.505+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:33:46.505+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:33:46.511+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.624 seconds
+[2025-08-06T15:34:17.970+0530] {processor.py:161} INFO - Started process (PID=18403) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:17.971+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:34:17.972+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:17.972+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:18.565+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:18.606+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:18.606+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:34:18.611+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:18.611+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:34:18.617+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.648 seconds
+[2025-08-06T15:34:49.692+0530] {processor.py:161} INFO - Started process (PID=18458) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:49.693+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:34:49.693+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:49.693+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:50.212+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:34:50.251+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:50.251+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:34:50.255+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:34:50.255+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:34:50.263+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.571 seconds
+[2025-08-06T15:35:21.401+0530] {processor.py:161} INFO - Started process (PID=18473) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:21.403+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:35:21.403+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:21.403+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:21.941+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:21.984+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:21.984+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:35:21.988+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:21.988+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:35:21.994+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.594 seconds
+[2025-08-06T15:35:53.139+0530] {processor.py:161} INFO - Started process (PID=18509) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:53.143+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:35:53.144+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:53.144+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:53.714+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:35:53.757+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:53.757+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:35:53.762+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:35:53.761+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:35:53.769+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.631 seconds
+[2025-08-06T15:36:24.892+0530] {processor.py:161} INFO - Started process (PID=18530) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:24.893+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:36:24.893+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:24.893+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:25.419+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:25.459+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:25.458+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:36:25.462+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:25.462+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:36:25.468+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.577 seconds
+[2025-08-06T15:36:56.549+0530] {processor.py:161} INFO - Started process (PID=18919) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:56.550+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:36:56.551+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:56.551+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:57.081+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:36:57.122+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:57.122+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:36:57.127+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:36:57.127+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:36:57.134+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.586 seconds
+[2025-08-06T15:37:28.587+0530] {processor.py:161} INFO - Started process (PID=19007) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:37:28.589+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:37:28.589+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:37:28.589+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:37:29.312+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:37:29.357+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:37:29.357+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:37:29.362+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:37:29.362+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:37:29.370+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.783 seconds
+[2025-08-06T15:38:01.025+0530] {processor.py:161} INFO - Started process (PID=19215) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:01.027+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:38:01.027+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:01.027+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:01.723+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:01.773+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:01.772+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:38:01.777+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:01.777+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:38:01.785+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.760 seconds
+[2025-08-06T15:38:32.925+0530] {processor.py:161} INFO - Started process (PID=19242) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:32.927+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:38:32.928+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:32.928+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:33.526+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:38:33.569+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:33.569+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:38:33.575+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:38:33.575+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:38:33.582+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.657 seconds
+[2025-08-06T15:39:04.724+0530] {processor.py:161} INFO - Started process (PID=19316) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:04.726+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:39:04.726+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:04.726+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:05.716+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:05.757+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:05.757+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:39:05.761+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:05.761+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:39:05.768+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 1.045 seconds
+[2025-08-06T15:39:36.985+0530] {processor.py:161} INFO - Started process (PID=19364) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:36.987+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:39:36.987+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:36.987+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:37.522+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:39:37.564+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:37.564+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:39:37.569+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:39:37.569+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:39:37.576+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.592 seconds
+[2025-08-06T15:40:08.849+0530] {processor.py:161} INFO - Started process (PID=19408) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:08.851+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:40:08.851+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:08.851+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:09.436+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:09.476+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:09.476+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:40:09.480+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:09.480+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:40:09.487+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.638 seconds
+[2025-08-06T15:40:40.887+0530] {processor.py:161} INFO - Started process (PID=19448) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:40.890+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:40:40.890+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:40.890+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:41.833+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:40:41.881+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:41.881+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:40:41.885+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:40:41.885+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:40:41.892+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 1.005 seconds
+[2025-08-06T15:41:13.025+0530] {processor.py:161} INFO - Started process (PID=19474) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:13.027+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:41:13.028+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:13.027+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:13.657+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:13.703+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:13.703+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:41:13.708+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:13.708+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:41:13.715+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.691 seconds
+[2025-08-06T15:41:44.846+0530] {processor.py:161} INFO - Started process (PID=19514) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:44.848+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:41:44.849+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:44.849+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:45.394+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:41:45.442+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:45.442+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:41:45.446+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:41:45.446+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:41:45.452+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.608 seconds
+[2025-08-06T15:42:16.750+0530] {processor.py:161} INFO - Started process (PID=19963) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:16.752+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:42:16.753+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:16.753+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:17.611+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:17.661+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:17.661+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:42:17.667+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:17.667+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:42:17.675+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.925 seconds
+[2025-08-06T15:42:48.909+0530] {processor.py:161} INFO - Started process (PID=20205) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:48.917+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:42:48.917+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:48.917+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:49.643+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:42:49.684+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:49.684+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:42:49.689+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:42:49.689+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:42:49.696+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.788 seconds
+[2025-08-06T15:43:20.845+0530] {processor.py:161} INFO - Started process (PID=20232) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:20.847+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:43:20.847+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:20.847+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:21.483+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:21.524+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:21.524+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:43:21.529+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:21.529+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:43:21.539+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.695 seconds
+[2025-08-06T15:43:52.706+0530] {processor.py:161} INFO - Started process (PID=20265) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:52.708+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:43:52.708+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:52.708+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:53.206+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:43:53.249+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:53.249+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:43:53.254+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:43:53.253+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:43:53.260+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.555 seconds
+[2025-08-06T15:44:24.885+0530] {processor.py:161} INFO - Started process (PID=20303) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:24.886+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:44:24.887+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:24.887+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:25.418+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:25.458+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:25.458+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:44:25.462+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:25.462+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:44:25.468+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.584 seconds
+[2025-08-06T15:44:56.616+0530] {processor.py:161} INFO - Started process (PID=20336) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:56.617+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:44:56.618+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:56.618+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:57.263+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:44:57.303+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:57.303+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:44:57.308+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:44:57.308+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:44:57.314+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.699 seconds
+[2025-08-06T15:45:28.477+0530] {processor.py:161} INFO - Started process (PID=20391) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:45:28.478+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:45:28.479+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:45:28.478+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:45:29.169+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:45:29.210+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:45:29.209+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:45:29.213+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:45:29.213+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:45:29.220+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.744 seconds
+[2025-08-06T15:46:00.326+0530] {processor.py:161} INFO - Started process (PID=20431) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:00.327+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:46:00.328+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:00.328+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:01.014+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:01.054+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:01.054+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:46:01.058+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:01.058+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:46:01.064+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.739 seconds
+[2025-08-06T15:46:32.191+0530] {processor.py:161} INFO - Started process (PID=20451) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:32.192+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:46:32.193+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:32.193+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:32.760+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:46:32.802+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:32.802+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:46:32.806+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:46:32.806+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:46:32.813+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.622 seconds
+[2025-08-06T15:47:03.926+0530] {processor.py:161} INFO - Started process (PID=20502) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:03.928+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:47:03.928+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:03.928+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:04.494+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:04.535+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:04.535+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:47:04.539+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:04.539+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:47:04.546+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.621 seconds
+[2025-08-06T15:47:36.408+0530] {processor.py:161} INFO - Started process (PID=20524) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:36.414+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:47:36.415+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:36.415+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:36.981+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:47:37.021+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:37.021+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:47:37.026+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:47:37.026+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:47:37.032+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.625 seconds
+[2025-08-06T15:48:08.815+0530] {processor.py:161} INFO - Started process (PID=20562) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:08.817+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:48:08.817+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:08.817+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:09.344+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:09.384+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:09.384+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:48:09.389+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:09.389+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:48:09.396+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.581 seconds
+[2025-08-06T15:48:40.531+0530] {processor.py:161} INFO - Started process (PID=20602) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:40.532+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:48:40.533+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:40.532+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:41.061+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:48:41.100+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:41.100+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:48:41.105+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:48:41.105+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:48:41.111+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.581 seconds
+[2025-08-06T15:49:12.280+0530] {processor.py:161} INFO - Started process (PID=20656) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:12.281+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:49:12.281+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:12.281+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:12.809+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:12.849+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:12.849+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:49:12.853+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:12.853+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:49:12.860+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.580 seconds
+[2025-08-06T15:49:44.125+0530] {processor.py:161} INFO - Started process (PID=20685) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:44.127+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:49:44.128+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:44.128+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:44.747+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:49:44.793+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:44.793+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:49:44.801+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:49:44.801+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:49:44.814+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.691 seconds
+[2025-08-06T15:50:16.140+0530] {processor.py:161} INFO - Started process (PID=20707) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:16.146+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:50:16.146+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:16.146+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:16.707+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:16.752+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:16.751+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:50:16.756+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:16.756+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:50:16.763+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.623 seconds
+[2025-08-06T15:50:47.870+0530] {processor.py:161} INFO - Started process (PID=20852) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:47.871+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:50:47.871+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:47.871+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:48.475+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:50:48.516+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:48.516+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:50:48.520+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:50:48.520+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:50:48.527+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.658 seconds
+[2025-08-06T15:51:19.821+0530] {processor.py:161} INFO - Started process (PID=21221) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:19.822+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:51:19.823+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:19.823+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:20.651+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:20.692+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:20.692+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:51:20.698+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:20.698+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:51:20.705+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.885 seconds
+[2025-08-06T15:51:52.011+0530] {processor.py:161} INFO - Started process (PID=21448) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:52.013+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:51:52.014+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:52.014+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:52.823+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:51:52.867+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:52.866+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:51:52.873+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:51:52.872+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:51:52.879+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.870 seconds
+[2025-08-06T15:52:24.151+0530] {processor.py:161} INFO - Started process (PID=21468) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:24.152+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:52:24.152+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:24.152+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:24.856+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:24.896+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:24.896+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:52:24.900+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:24.900+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:52:24.906+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.756 seconds
+[2025-08-06T15:52:55.976+0530] {processor.py:161} INFO - Started process (PID=21500) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:55.977+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:52:55.977+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:55.977+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:56.468+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:52:56.507+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:56.507+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:52:56.512+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:52:56.512+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:52:56.518+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.543 seconds
+[2025-08-06T15:53:27.673+0530] {processor.py:161} INFO - Started process (PID=21513) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:53:27.675+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:53:27.675+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:53:27.675+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:53:28.221+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:53:28.263+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:53:28.262+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:53:28.267+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:53:28.267+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:53:28.275+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.602 seconds
+[2025-08-06T15:53:59.411+0530] {processor.py:161} INFO - Started process (PID=21546) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:53:59.412+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:53:59.413+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:53:59.413+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:54:00.096+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:54:00.137+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:54:00.137+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:54:00.142+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:54:00.142+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:54:00.149+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.739 seconds
+[2025-08-06T15:54:31.354+0530] {processor.py:161} INFO - Started process (PID=21567) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:54:31.355+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:54:31.355+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:54:31.355+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:54:31.894+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:54:31.936+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:54:31.936+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:54:31.940+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:54:31.940+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:54:31.948+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.595 seconds
+[2025-08-06T15:55:03.226+0530] {processor.py:161} INFO - Started process (PID=21606) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:03.228+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:55:03.229+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:03.229+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:03.749+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:03.789+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:03.789+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:55:03.794+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:03.794+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:55:03.800+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.575 seconds
+[2025-08-06T15:55:35.144+0530] {processor.py:161} INFO - Started process (PID=21624) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:35.146+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:55:35.147+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:35.147+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:35.701+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:55:35.742+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:35.742+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:55:35.746+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:55:35.746+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:55:35.753+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.610 seconds
+[2025-08-06T15:56:06.876+0530] {processor.py:161} INFO - Started process (PID=21657) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:06.878+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:56:06.878+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:06.878+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:07.480+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:07.534+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:07.533+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:56:07.539+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:07.539+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:56:07.546+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.670 seconds
+[2025-08-06T15:56:38.669+0530] {processor.py:161} INFO - Started process (PID=21685) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:38.671+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:56:38.671+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:38.671+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:39.189+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:56:39.230+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:39.230+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:56:39.234+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:56:39.234+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:56:39.241+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.572 seconds
+[2025-08-06T15:57:10.454+0530] {processor.py:161} INFO - Started process (PID=21732) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:10.455+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:57:10.456+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:10.456+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:11.015+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:11.055+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:11.055+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:57:11.060+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:11.060+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:57:11.068+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.615 seconds
+[2025-08-06T15:57:42.276+0530] {processor.py:161} INFO - Started process (PID=21761) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:42.277+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:57:42.277+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:42.277+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:43.012+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:57:43.058+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:43.057+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:57:43.063+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:57:43.063+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:57:43.070+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.796 seconds
+[2025-08-06T15:58:14.590+0530] {processor.py:161} INFO - Started process (PID=21878) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:14.594+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:58:14.594+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:14.594+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:15.225+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:15.269+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:15.269+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:58:15.276+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:15.276+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:58:15.282+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.693 seconds
+[2025-08-06T15:58:46.520+0530] {processor.py:161} INFO - Started process (PID=22332) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:46.521+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:58:46.522+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:46.522+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:47.218+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:58:47.262+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:47.262+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:58:47.268+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:58:47.267+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:58:47.278+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.759 seconds
+[2025-08-06T15:59:18.429+0530] {processor.py:161} INFO - Started process (PID=22476) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:18.431+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:59:18.431+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:18.431+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:19.087+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:19.128+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:19.128+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:59:19.132+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:19.132+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:59:19.138+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.709 seconds
+[2025-08-06T15:59:50.197+0530] {processor.py:161} INFO - Started process (PID=22533) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:50.198+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T15:59:50.199+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:50.199+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:50.694+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T15:59:50.735+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:50.735+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T15:59:50.739+0530] {logging_mixin.py:188} INFO - [2025-08-06T15:59:50.739+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T15:59:50.745+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.549 seconds
+[2025-08-06T16:00:21.930+0530] {processor.py:161} INFO - Started process (PID=22582) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:21.931+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T16:00:21.931+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:21.931+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:22.761+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:22.804+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:22.804+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T16:00:22.810+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:22.810+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T16:00:22.817+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.888 seconds
+[2025-08-06T16:00:54.028+0530] {processor.py:161} INFO - Started process (PID=22616) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:54.030+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T16:00:54.031+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:54.031+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:54.693+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:00:54.734+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:54.734+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T16:00:54.739+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:00:54.738+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T16:00:54.745+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.717 seconds
+[2025-08-06T16:01:26.092+0530] {processor.py:161} INFO - Started process (PID=22636) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:26.094+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T16:01:26.094+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:26.094+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:26.852+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:26.924+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:26.924+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T16:01:26.933+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:26.933+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T16:01:26.946+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.856 seconds
+[2025-08-06T16:01:58.055+0530] {processor.py:161} INFO - Started process (PID=22677) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:58.056+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T16:01:58.056+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:58.056+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:58.581+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:01:58.621+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:58.621+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T16:01:58.625+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:01:58.625+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T16:01:58.631+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 0.577 seconds
+[2025-08-06T16:02:30.224+0530] {processor.py:161} INFO - Started process (PID=22708) to work on /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:02:30.231+0530] {processor.py:830} INFO - Processing file /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py for tasks to queue
+[2025-08-06T16:02:30.231+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:02:30.231+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:02:31.370+0530] {processor.py:840} INFO - DAG(s) 'mssql_to_snowflake_retail_sales' retrieved from /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py
+[2025-08-06T16:02:31.451+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:02:31.450+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-08-06T16:02:31.464+0530] {logging_mixin.py:188} INFO - [2025-08-06T16:02:31.464+0530] {dag.py:3834} INFO - Setting next_dagrun for mssql_to_snowflake_retail_sales to None, run_after=None
+[2025-08-06T16:02:31.481+0530] {processor.py:183} INFO - Processing /Users/sureshduddu/Cursor/airflow/dags/mssql_to_snowflake_retail_sales.py took 1.258 seconds
