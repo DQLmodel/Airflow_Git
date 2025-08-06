@@ -1,4 +1,4 @@
-from airflow import D
+from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 # from airflow.providers.microsoft.mssql.operators.mssql import MsSqlOperator
