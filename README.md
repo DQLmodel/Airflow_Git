@@ -1,4 +1,4 @@
-# Airflow MSSQL to Snowflake ETL Project
+# Airflow  ETL Project
 
 This project provides a template for orchestrating data movement from MS SQL Server to Snowflake using Apache Airflow.
 
