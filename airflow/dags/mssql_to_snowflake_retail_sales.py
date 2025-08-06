@@ -1,4 +1,4 @@
-from airflow import DAG
+from airflow import DA
 from airflow.operators.python import PythonOperator
 from airflow.exceptions import AirflowFailException
 from datetime import datetime, timedelta
