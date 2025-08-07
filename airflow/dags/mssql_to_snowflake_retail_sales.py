@@ -10,7 +10,7 @@ from snowflake.connector.errors import OperationalError
 
 # Constants
 TARGET_TABLE = 'retail_sales'  # Snowflake table to load data into
-SNOWFLAKE_STAGE = 'PIPELINE_STAGE'
+SNOWFLAKE_STAGE = 'PIPELINE_STAGE'N
 SNOWFLAKE_DATABASE = 'DQLABS_QA'  # Your Snowflake database
 SNOWFLAKE_SCHEMA = 'STAGING'     # Your Snowflake schema
 
