@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from datetime import datetime
+from datetime import date
 # from airflow.providers.microsoft.mssql.operators.mssql import MsSqlOperator
 # from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 
