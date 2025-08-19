@@ -1,5 +1,5 @@
 
-from datetime import datetime
+from datetime import date
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import pyodbc
