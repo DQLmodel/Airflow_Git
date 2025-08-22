@@ -3,7 +3,7 @@ from datetime import date
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import pyodbc
-import pandas as pdag
+import pandas as pd
 from sqlalchemy import create_engine
 import urllib
 
