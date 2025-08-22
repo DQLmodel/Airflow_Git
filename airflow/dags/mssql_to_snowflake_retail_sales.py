@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.exceptions import AirflowFailException
 from datetime import datetime, timedelta
-import pandas as pl
+import pandas as p
 import tempfile
 import os
 import time
