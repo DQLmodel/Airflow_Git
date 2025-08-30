@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
-from datetime import dateti
+from datetime import datetime
 
 from dqlabs.dq_package.operators import DQLabsCircuitBreakerOperator
 from dqlabs.dq_package.callbacks.dq_callbacks import dq_task_failure_callback
