@@ -324,3 +324,4 @@ with DAG(
     
     # Task dependencies
     extract_data >> ensure_table >> upload_stage >> copy_data
+    ensure_table >> upload_stage >> copy_data
