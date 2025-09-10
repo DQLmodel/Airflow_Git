@@ -8,7 +8,6 @@ import os
 import time
 from snowflake.connector.errors import OperationalError
 
-# Constants
 TARGET_TABLE = 'retail_sales'  # Snowflake table to load data into
 SNOWFLAKE_STAGE = 'PIPELINE_STAGE'
 SNOWFLAKE_DATABASE = 'DQLABS_QA'  # Your Snowflake database
@@ -324,3 +323,4 @@ with DAG(
     
     # Task dependencies
     extract_data >> ensure_table >> upload_stage >> copy_data
+    ensure_table >> upload_stage >> copy_data
