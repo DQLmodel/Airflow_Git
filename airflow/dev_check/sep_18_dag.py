@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.providers.ssh.operators.ssh import SSHOperator
-from datetime import date
+from datetime import datetime
 
 default_args = {
     'owner': 'airflow',
