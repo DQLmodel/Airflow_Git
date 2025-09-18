@@ -3,7 +3,7 @@ from airflow.operators.python import PythonOperator
 from airflow.exceptions import AirflowFailException
 from datetime import datetime, timedelta
 import pandas as pd
-import tempfile
+import tempfile vinaya
 import os
 import time
 from snowflake.connector.errors import OperationalError
