@@ -34,7 +34,7 @@ SNOWFLAKE_CONFIG = {
 }
 
 MAX_RETRIES = 3
-RETRY_DELAY = 4  # seconds
+RETRY_DELAY = 5  # seconds
 
 def get_snowflake_connection():
     """Get Snowflake connection with retry logic using hardcoded credentials."""
