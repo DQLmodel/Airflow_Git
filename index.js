@@ -74,7 +74,6 @@ const getAirflowJobs = async () => {
       }
     });
 
-    console.log("Airflow jobs", response?.data?.response?.data);
 
     return response?.data?.response?.data || [];
   } catch (error) {
@@ -190,7 +189,8 @@ const run = async () => {
     // Process changed Python files (Airflow DAGs)
     const changedDAGs = changedFiles
       .filter(file => file && typeof file === "string" && file.endsWith(".py"))
-      .filter(file => file.includes("dag") || file.includes("DAG"));
+      .map(file => path.basename(file, path.extname(file)))
+      .filter(Boolean);
 
     console.log("Changed DAGs", changedDAGs);
 
@@ -199,42 +199,16 @@ const run = async () => {
 
     // Analyze each changed DAG file
     const dagAnalyses = [];
-    for (const filePath of changedDAGs) {
-      try {
-        const content = fs.readFileSync(filePath, 'utf8');
-        const analysis = analyzeAirflowDAG(content, filePath);
-        dagAnalyses.push(analysis);
-      } catch (error) {
-        core.error(`Error reading file ${filePath}: ${error.message}`);
-      }
-    }
 
     // Match DAGs with jobs and perform impact analysis
     const matchedJobs = jobs
       .filter(job => job?.connection_type === "airflow")
-      .filter(job => {
-        // Match job name with DAG file name or DAG ID
-        const jobName = job?.name?.toLowerCase();
-        return changedDAGs.some(dagFile => {
-          const dagName = path.basename(dagFile, path.extname(dagFile)).toLowerCase();
-          return jobName === dagName || jobName?.includes(dagName) || dagName?.includes(jobName);
-        }) || dagAnalyses.some(analysis => {
-          const dagId = analysis.dagId?.toLowerCase();
-          return jobName === dagId || jobName?.includes(dagId) || dagId?.includes(jobName);
-        });
-      })
+      .filter(job => changedDAGs.includes(job?.name))
       .map(job => ({
         ...job,
-        entity: job?.job_id || job?.task_id || "",
-        filePath: changedDAGs.find(f => {
-          const dagName = path.basename(f, path.extname(f)).toLowerCase();
-          const jobName = job?.name?.toLowerCase();
-          return jobName === dagName || jobName?.includes(dagName) || dagName?.includes(jobName);
-        }) || dagAnalyses.find(analysis => {
-          const dagId = analysis.dagId?.toLowerCase();
-          const jobName = job?.name?.toLowerCase();
-          return jobName === dagId || jobName?.includes(dagId) || dagId?.includes(jobName);
-        })?.filePath
+        asset_id: job?.asset_id || "",
+        entity: job?.asset_id || "",
+        filePath: changedDAGs.find(f => path.basename(f, path.extname(f)) === job?.name)
       }))
       .filter(job => job.filePath);
 
@@ -257,7 +231,7 @@ const run = async () => {
         job.asset_id,
         job.connection_id,
         job.entity,
-        true // isDirect = true
+        false // isDirect = true
       );
 
       // Filter out the job itself from direct impacts
