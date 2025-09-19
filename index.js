@@ -91,7 +91,7 @@ const getImpactAnalysisData = async (asset_id, connection_id, entity, isDirect =
       entity,
       moreOptions: {
         view_by: "table",
-        ...(!isDirect && { depth: 10 })
+        ...(!isDirect && { depth: 3 })
       },
       search_key: ""
     };
@@ -115,68 +115,6 @@ const getImpactAnalysisData = async (asset_id, connection_id, entity, isDirect =
   }
 };
 
-const analyzeAirflowDAG = (content, filePath) => {
-  try {
-    const dagInfo = {
-      filePath,
-      dagId: null,
-      tasks: [],
-      dependencies: [],
-      schedule: null,
-      tags: [],
-      description: null
-    };
-
-    // Extract DAG ID
-    const dagIdMatch = content.match(/dag_id\s*=\s*['"]([^'"]+)['"]/);
-    if (dagIdMatch) {
-      dagInfo.dagId = dagIdMatch[1];
-    }
-
-    // Extract schedule
-    const scheduleMatch = content.match(/schedule_interval\s*=\s*['"]([^'"]+)['"]/);
-    if (scheduleMatch) {
-      dagInfo.schedule = scheduleMatch[1];
-    }
-
-    // Extract tags
-    const tagsMatch = content.match(/tags\s*=\s*\[([^\]]+)\]/);
-    if (tagsMatch) {
-      dagInfo.tags = tagsMatch[1].split(',').map(tag => tag.trim().replace(/['"]/g, ''));
-    }
-
-    // Extract description
-    const descMatch = content.match(/description\s*=\s*['"]([^'"]+)['"]/);
-    if (descMatch) {
-      dagInfo.description = descMatch[1];
-    }
-
-    // Extract task definitions
-    const taskMatches = content.match(/@task[^\n]*\n\s*def\s+(\w+)/g);
-    if (taskMatches) {
-      taskMatches.forEach(match => {
-        const taskName = match.match(/def\s+(\w+)/)[1];
-        dagInfo.tasks.push(taskName);
-      });
-    }
-
-    // Extract dependencies
-    const depMatches = content.match(/(\w+)\s*>>\s*(\w+)/g);
-    if (depMatches) {
-      depMatches.forEach(match => {
-        const parts = match.split('>>').map(p => p.trim());
-        if (parts.length === 2) {
-          dagInfo.dependencies.push({ from: parts[0], to: parts[1] });
-        }
-      });
-    }
-
-    return dagInfo;
-  } catch (error) {
-    core.error(`Error analyzing DAG ${filePath}: ${error.message}`);
-    return { filePath, error: error.message };
-  }
-};
 
 const run = async () => {
   try {
@@ -399,7 +337,6 @@ ${content}
     summary += `- **Total Indirectly Impacted:** ${totalIndirect}\n`;
     summary += `- **Files Changed:** ${Object.keys(fileImpacts).length}\n`;
     summary += `- **Jobs Matched:** ${matchedJobs.length}\n`;
-    summary += `- **DAGs Analyzed:** ${dagAnalyses.length}\n\n`;
 
     // Post comment
     if (github.context.payload.pull_request) {
