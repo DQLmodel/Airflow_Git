@@ -182,12 +182,15 @@ const run = async () => {
     let summary = "## Airflow DAG Impact Analysis Report\n\n";
 
     const changedFiles = safeArray(await getChangedFiles());
+    console.log("Changed files", changedFiles);
     core.info(`Found ${changedFiles.length} changed files`);
 
     // Process changed Python files (Airflow DAGs)
     const changedDAGs = changedFiles
       .filter(file => file && typeof file === "string" && file.endsWith(".py"))
       .filter(file => file.includes("dag") || file.includes("DAG"));
+
+    console.log("Changed DAGs", changedDAGs);
 
     // Get Airflow Jobs from DQLabs (treating DAGs as jobs)
     const jobs = await getAirflowJobs();
