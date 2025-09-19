@@ -29,5 +29,5 @@ outputs:
     value: ${{ steps.impact-analysis.outputs.impact_markdown }}
 
 runs:
-  using: 'node20'
+  using: 'node16'
   main: 'index.js'
