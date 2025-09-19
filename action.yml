@@ -1,0 +1,33 @@
+name: 'Airflow Impact Analysis'
+description: 'GitHub Action for Airflow DAG Impact Analysis using DQLabs'
+author: 'DQLmodel'
+
+inputs:
+  api_client_id:
+    description: 'DQLabs API Client ID'
+    required: true
+  api_client_secret:
+    description: 'DQLabs API Client Secret'
+    required: true
+  changed_files_list:
+    description: 'Comma-separated list of changed files'
+    required: false
+    default: ''
+  github_token:
+    description: 'GitHub token for API access'
+    required: true
+  dqlabs_base_url:
+    description: 'DQLabs base URL'
+    required: true
+  dqlabs_createlink_url:
+    description: 'DQLabs create link URL'
+    required: true
+
+outputs:
+  impact_markdown:
+    description: 'Markdown formatted impact analysis results'
+    value: ${{ steps.impact-analysis.outputs.impact_markdown }}
+
+runs:
+  using: 'node20'
+  main: 'index.js'
