@@ -74,6 +74,8 @@ const getAirflowJobs = async () => {
       }
     });
 
+    console.log("Airflow jobs", response?.data?.response?.data);
+
     return response?.data?.response?.data || [];
   } catch (error) {
     core.error(`[getAirflowJobs] Error: ${error.message}`);
