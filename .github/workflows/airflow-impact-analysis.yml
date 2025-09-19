@@ -2,6 +2,7 @@ name: "Airflow Impact Analysis on PR"
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened]
     paths:
       - '**/*.py'
 
@@ -14,6 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug workflow trigger
+        run: |
+          echo "Workflow triggered successfully!"
+          echo "Event: ${{ github.event_name }}"
+          echo "Action: ${{ github.event.action }}"
+          echo "PR Number: ${{ github.event.number }}"
+          echo "PR Title: ${{ github.event.pull_request.title }}"
+
       - name: Checkout PR code (head)
         uses: actions/checkout@v4
         with:
