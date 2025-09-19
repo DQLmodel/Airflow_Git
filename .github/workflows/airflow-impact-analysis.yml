@@ -27,6 +27,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
       - name: Get changed Airflow files
         id: changes
         uses: tj-actions/changed-files@v46
@@ -39,7 +48,7 @@ jobs:
 
       - name: Run DQLabs Impact Analysis
         id: impact-analysis
-        uses: DQLmodel/AIRFLOW_GIT@github_action_test
+        uses: ./
         with:
           api_client_id: ${{ secrets.DQLABS_API_CLIENT_ID }}
           api_client_secret: ${{ secrets.DQLABS_API_CLIENT_SECRET }}
