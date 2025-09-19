@@ -1,0 +1,22 @@
+{
+  "name": "airflow-impact-analysis",
+  "version": "1.0.0",
+  "description": "GitHub Action for Airflow DAG Impact Analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^6.0.0",
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "airflow",
+    "github-actions",
+    "impact-analysis",
+    "dqlabs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
