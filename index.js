@@ -107,11 +107,11 @@ const getImpactAnalysisData = async (asset_id, connection_id, entity, isDirect =
         },
       }
     );
-
-    return safeArray(response?.data?.response?.data?.tables || []);
+    return response?.data?.response?.data || {};
+    // return safeArray(response?.data?.response?.data?.tables || []), safeArray(response?.data?.response?.data?.response?.indirect || []);
   } catch (error) {
     core.error(`[getImpactAnalysisData] Error for ${entity}: ${error.message}`);
-    return [];
+    return {};
   }
 };
 
@@ -165,27 +165,23 @@ const run = async () => {
     // Process impact data for each job
     for (const job of matchedJobs) {
       // Get direct impacts (without depth)
-      const directImpact = await getImpactAnalysisData(
+      const impactData = await getImpactAnalysisData(
         job.asset_id,
         job.connection_id,
         job.entity,
         false // isDirect = true
       );
 
+      const impactTables = impactData?.tables || [];
+      const indirectImpact = impactData?.indirect || [];
+      const indirectNameSet = new Set(indirectImpact.map(item => item?.name));
+
       // Filter out the job itself from direct impacts
-      const filteredDirectImpact = directImpact
-        .filter(table => table?.name !== job.name)
+      const filteredDirectImpact = impactTables
+        .filter(table => !indirectNameSet.has(table?.name))
         .filter(Boolean);
 
       fileImpacts[job.filePath].direct.push(...filteredDirectImpact);
-
-      // Get indirect impacts (with depth=10)
-      const indirectImpact = await getImpactAnalysisData(
-        job.asset_id,
-        job.connection_id,
-        job.entity,
-        false // isDirect = false
-      );
 
       fileImpacts[job.filePath].indirect.push(...indirectImpact);
     }
