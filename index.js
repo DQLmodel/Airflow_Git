@@ -183,14 +183,6 @@ const run = async () => {
 
       fileImpacts[job.filePath].direct.push(...filteredDirectImpact);
 
-      // Get indirect impacts (with depth=10)
-      // const indirectImpact = await getImpactAnalysisData(
-      //   job.asset_id,
-      //   job.connection_id,
-      //   job.entity,
-      //   false // isDirect = false
-      // );
-
       fileImpacts[job.filePath].indirect.push(...indirectImpact);
     }
 
