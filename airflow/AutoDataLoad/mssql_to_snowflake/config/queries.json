@@ -1,0 +1,66 @@
+{
+    "customer_query": {
+        "query": "SELECT c.CustomerID, c.FirstName, c.LastName, c.Email, c.PhoneNumber, c.JoinDate, c.Status, c.LoyaltyPoints, a.AddressID, a.Street, a.City, a.State, a.PostalCode, a.Country FROM pipeline.[source].Customers AS c INNER JOIN pipeline.[source].Customer_Addresses AS a ON c.CustomerID = a.CustomerID",
+        "description": "Query to fetch customer data with their addresses",
+        "last_modified": "2024-03-20",
+        "owner": "data_team",
+        "target_schema": {
+            "CustomerID": "STRING",
+            "FirstName": "STRING",
+            "LastName": "STRING",
+            "Email": "STRING",
+            "PhoneNumber": "STRING",
+            "JoinDate": "STRING",
+            "Status": "STRING",
+            "LoyaltyPoints": "INT",
+            "AddressID": "STRING",
+            "Street": "STRING",
+            "City": "STRING",
+            "State": "STRING",
+            "PostalCode": "STRING",
+            "Country": "STRING"
+        }
+    },
+    "order_items_query": {
+        "query": "SELECT oi.OrderItemID, oi.OrderID, oi.ProductName, oi.Quantity, oi.PricePerItem, co.CustomerID, co.OrderDate, co.OrderStatus, co.TotalAmount, cp.PaymentID, cp.PaymentDate, cp.PaymentAmount, cp.PaymentMethod FROM pipeline.[source].Order_Items oi INNER JOIN pipeline.[source].Customer_Orders co ON oi.OrderID = co.OrderID INNER JOIN pipeline.[source].Customer_Payments cp ON oi.OrderID = cp.OrderID",
+        "description": "Query to fetch order items data with related order and payment information",
+        "last_modified": "2024-03-20",
+        "owner": "data_team",
+        "target_schema": {
+            "OrderItemID": "STRING",
+            "OrderID": "STRING",
+            "ProductName": "STRING",
+            "Quantity": "INT",
+            "PricePerItem": "DECIMAL",
+            "CustomerID": "STRING",
+            "OrderDate": "STRING",
+            "OrderStatus": "STRING",
+            "TotalAmount": "DECIMAL",
+            "PaymentID": "STRING",
+            "PaymentDate": "STRING",
+            "PaymentAmount": "DECIMAL",
+            "PaymentMethod": "STRING"
+        }
+    },
+    "customer_tickets_query": {
+        "query": "SELECT cst.TicketID, cst.CustomerID, cst.IssueType, cst.Description, cst.TicketDate, cst.ResolutionStatus, c.FirstName, c.LastName, c.Email, c.PhoneNumber, c.JoinDate, c.Status, c.LoyaltyPoints FROM pipeline.[source].Customer_Support_Tickets cst INNER JOIN pipeline.[source].Customers c ON cst.CustomerID = c.CustomerID",
+        "description": "Query to fetch customer support tickets with related customer information",
+        "last_modified": "2024-03-20",
+        "owner": "data_team",
+        "target_schema": {
+            "TicketID": "STRING",
+            "CustomerID": "STRING",
+            "IssueType": "STRING",
+            "Description": "STRING",
+            "TicketDate": "STRING",
+            "ResolutionStatus": "STRING",
+            "FirstName": "STRING",
+            "LastName": "STRING",
+            "Email": "STRING",
+            "PhoneNumber": "STRING",
+            "JoinDate": "STRING",
+            "Status": "STRING",
+            "LoyaltyPoints": "INT"
+        }
+    }
+}
