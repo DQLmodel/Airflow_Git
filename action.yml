@@ -22,6 +22,10 @@ inputs:
   dqlabs_createlink_url:
     description: 'DQLabs create link URL'
     required: true
+  dqlabs_configurable_keys:
+    description: 'Comma-separated list of configurable keys to control report display'
+    required: false
+    default: ''
 
 outputs:
   impact_markdown:
