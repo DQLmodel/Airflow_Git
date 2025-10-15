@@ -147,6 +147,36 @@ const getImpactAnalysisData = async (asset_id, connection_id, entity, isDirect =
 };
 
 
+const constructItemUrl = (item, baseUrl) => {
+  if (!item || !baseUrl) return "#";
+
+  try {
+    const url = new URL(baseUrl);
+
+    // Handle pipeline items
+    if (item.asset_group === "pipeline") {
+      if (item.is_transform) {
+        url.pathname = `/observe/pipeline/transformation/${item.redirect_id}/run`;
+      } else {
+        url.pathname = `/observe/pipeline/task/${item.redirect_id}/run`;
+      }
+      return url.toString();
+    }
+
+    // Handle data items
+    if (item.asset_group === "data") {
+      url.pathname = `/observe/data/${item.redirect_id}/measures`;
+      return url.toString();
+    }
+
+    // Default case
+    return "#";
+  } catch (error) {
+    core.error(`Error constructing URL for ${item.name}: ${error.message}`);
+    return "#";
+  }
+};
+
 // Generate comprehensive JSON file with all data
 const generateComprehensiveJSON = (fileImpacts, changedFiles, matchedJobs) => {
   const jsonData = {
@@ -390,35 +420,6 @@ const run = async () => {
       fileImpacts[filePath].indirect = dedup(fileImpacts[filePath].indirect);
     });
 
-    const constructItemUrl = (item, baseUrl) => {
-      if (!item || !baseUrl) return "#";
-
-      try {
-        const url = new URL(baseUrl);
-
-        // Handle pipeline items
-        if (item.asset_group === "pipeline") {
-          if (item.is_transform) {
-            url.pathname = `/observe/pipeline/transformation/${item.redirect_id}/run`;
-          } else {
-            url.pathname = `/observe/pipeline/task/${item.redirect_id}/run`;
-          }
-          return url.toString();
-        }
-
-        // Handle data items
-        if (item.asset_group === "data") {
-          url.pathname = `/observe/data/${item.redirect_id}/measures`;
-          return url.toString();
-        }
-
-        // Default case
-        return "#";
-      } catch (error) {
-        core.error(`Error constructing URL for ${item.name}: ${error.message}`);
-        return "#";
-      }
-    };
 
     // Build the configurable report
     summary = buildConfigurableReport(fileImpacts, changedFiles, matchedJobs);
