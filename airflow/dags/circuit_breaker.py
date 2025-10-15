@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
-from datetime import datetime
+from datetime import date
 from dqlabs.dq_package.operators import DQLabsCircuitBreakerOperator
 from airflow.operators.python import ShortCircuitOperator
 default_args = {
