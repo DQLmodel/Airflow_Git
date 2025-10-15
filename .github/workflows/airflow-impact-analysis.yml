@@ -56,7 +56,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           dqlabs_base_url: ${{ secrets.DQLABS_BASE_URL }}
           dqlabs_createlink_url: ${{ secrets.DQLABS_CREATELINK_URL }}
-          dqlabs_configurable_keys: "files, job, directly_asset_count, directly_asset_list, indirectly_asset_count, indirectly_asset_list, summary_of_impacts"
+          dqlabs_configurable_keys: "files, job, directly_asset_count, indirectly_asset_list, summary_of_impacts"
 
       - name: Show Summary in Logs
         run: echo "${{ steps.impact-analysis.outputs.impact_markdown }}"
