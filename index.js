@@ -13,9 +13,40 @@ console.log("Github token", githubToken);
 const dqlabs_base_url = core.getInput("dqlabs_base_url") || "";
 console.log("base url", dqlabs_base_url);
 const dqlabs_createlink_url = core.getInput("dqlabs_createlink_url") || "";
+const dqlabs_configurable_keys = core.getInput("dqlabs_configurable_keys") || "";
 
 // Safe array processing utility
 const safeArray = (maybeArray) => Array.isArray(maybeArray) ? maybeArray : [];
+
+// Parse configurable keys
+const parseConfigurableKeys = (keysString) => {
+  if (!keysString || typeof keysString !== 'string') {
+    return {
+      showFiles: true,
+      showJob: true,
+      showDirectlyAssetCount: true,
+      showDirectlyAssetList: true,
+      showIndirectlyAssetCount: true,
+      showIndirectlyAssetList: true,
+      showSummaryOfImpacts: true
+    };
+  }
+
+  const keys = keysString.split(',').map(key => key.trim().toLowerCase());
+  
+  return {
+    showFiles: keys.includes('files'),
+    showJob: keys.includes('job'),
+    showDirectlyAssetCount: keys.includes('directly_asset_count'),
+    showDirectlyAssetList: keys.includes('directly_asset_list'),
+    showIndirectlyAssetCount: keys.includes('indirectly_asset_count'),
+    showIndirectlyAssetList: keys.includes('indirectly_asset_list'),
+    showSummaryOfImpacts: keys.includes('summary_of_impacts')
+  };
+};
+
+// Parse the configurable keys
+const configurableKeys = parseConfigurableKeys(dqlabs_configurable_keys);
 
 const getChangedFiles = async () => {
   try {
@@ -116,6 +147,154 @@ const getImpactAnalysisData = async (asset_id, connection_id, entity, isDirect =
 };
 
 
+// Generate comprehensive JSON file with all data
+const generateComprehensiveJSON = (fileImpacts, changedFiles, matchedJobs) => {
+  const jsonData = {
+    metadata: {
+      timestamp: new Date().toISOString(),
+      commit_sha: github.context.sha,
+      pull_request_number: github.context.payload.pull_request?.number || null,
+      configurable_keys_used: dqlabs_configurable_keys ? dqlabs_configurable_keys.split(',').map(k => k.trim()) : [],
+      dqlabs_base_url: dqlabs_base_url,
+      analysis_type: "airflow_impact_analysis"
+    },
+    changed_files: changedFiles,
+    asset_impacts: {
+      direct: [],
+      indirect: []
+    },
+    summary: {
+      total_direct_assets: 0,
+      total_indirect_assets: 0,
+      total_changed_files: changedFiles.length,
+      total_jobs_matched: matchedJobs.length
+    }
+  };
+
+  // Process file impacts
+  Object.entries(fileImpacts).forEach(([filePath, impacts]) => {
+    impacts.direct.forEach(model => {
+      const redirectUrl = constructItemUrl(model, dqlabs_createlink_url);
+      jsonData.asset_impacts.direct.push({
+        file_path: filePath,
+        model_name: model.name,
+        job_name: impacts.jobName,
+        redirect_url: redirectUrl
+      });
+    });
+
+    impacts.indirect.forEach(model => {
+      const redirectUrl = constructItemUrl(model, dqlabs_createlink_url);
+      jsonData.asset_impacts.indirect.push({
+        file_path: filePath,
+        model_name: model.name,
+        job_name: impacts.jobName,
+        redirect_url: redirectUrl
+      });
+    });
+  });
+
+  // Calculate summary totals
+  jsonData.summary.total_direct_assets = jsonData.asset_impacts.direct.length;
+  jsonData.summary.total_indirect_assets = jsonData.asset_impacts.indirect.length;
+
+  return JSON.stringify(jsonData, null, 2);
+};
+
+// Build the new configurable report structure
+const buildConfigurableReport = (fileImpacts, changedFiles, matchedJobs) => {
+  let report = "## Airflow DAG Impact Analysis Report\n\n";
+  
+  // 1. Changed Files section (conditional)
+  if (configurableKeys.showFiles) {
+    report += "### Changed Files\n";
+    if (changedFiles.length > 0) {
+      changedFiles.forEach(file => {
+        report += `- ${file}\n`;
+      });
+    } else {
+      report += "- No files changed\n";
+    }
+    report += "\n";
+  }
+  
+  // 2. Job information section (conditional)
+  if (configurableKeys.showJob && matchedJobs.length > 0) {
+    report += "### Matched Jobs\n";
+    matchedJobs.forEach(job => {
+      report += `- **${job.name}** (${job.filePath})\n`;
+    });
+    report += "\n";
+  }
+  
+  // 3. Asset level Impacts section (conditional)
+  const hasAssetKeys = configurableKeys.showDirectlyAssetCount || configurableKeys.showIndirectlyAssetCount || 
+                       configurableKeys.showDirectlyAssetList || configurableKeys.showIndirectlyAssetList;
+  
+  if (hasAssetKeys) {
+    report += "### Asset level Impacts\n";
+    
+    // Calculate totals
+    const totalDirectAssets = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.direct.length, 0);
+    const totalIndirectAssets = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.indirect.length, 0);
+    
+    // Show count keys first
+    if (configurableKeys.showDirectlyAssetCount) {
+      report += `- **Total Directly Impacted:** ${totalDirectAssets}\n`;
+    }
+    if (configurableKeys.showIndirectlyAssetCount) {
+      report += `- **Total Indirectly Impacted:** ${totalIndirectAssets}\n`;
+    }
+    
+    // Show list keys second (as collapsible sections)
+    if (configurableKeys.showDirectlyAssetList) {
+      const directAssets = [];
+      Object.entries(fileImpacts).forEach(([filePath, impacts]) => {
+        impacts.direct.forEach(model => {
+          const url = constructItemUrl(model, dqlabs_createlink_url);
+          const modelName = model?.name || 'Unknown';
+          if (model?.connection_id && url !== "#") {
+            directAssets.push(`- [${modelName}](${url})`);
+          } else {
+            directAssets.push(`- ${modelName}`);
+          }
+        });
+      });
+      
+      if (directAssets.length > 0) {
+        report += `\n<details>\n<summary><b>Directly Impacted Assets (${directAssets.length})</b></summary>\n\n`;
+        report += directAssets.join('\n') + '\n';
+        report += `</details>\n`;
+      }
+    }
+    
+    if (configurableKeys.showIndirectlyAssetList) {
+      const indirectAssets = [];
+      Object.entries(fileImpacts).forEach(([filePath, impacts]) => {
+        impacts.indirect.forEach(model => {
+          const url = constructItemUrl(model, dqlabs_createlink_url);
+          const modelName = model?.name || 'Unknown';
+          if (model?.connection_id && url !== "#") {
+            indirectAssets.push(`- [${modelName}](${url})`);
+          } else {
+            indirectAssets.push(`- ${modelName}`);
+          }
+        });
+      });
+      
+      if (indirectAssets.length > 0) {
+        report += `\n<details>\n<summary><b>Indirectly Impacted Assets (${indirectAssets.length})</b></summary>\n\n`;
+        report += indirectAssets.join('\n') + '\n';
+        report += `</details>\n`;
+      }
+    }
+    
+    report += "\n";
+  }
+  
+  return report;
+};
+
 const run = async () => {
   try {
     let summary = "## Airflow DAG Impact Analysis Report\n\n";
@@ -134,9 +313,6 @@ const run = async () => {
 
     // Get Airflow Jobs from DQLabs (treating DAGs as jobs)
     const jobs = await getAirflowJobs();
-
-    // Analyze each changed DAG file
-    const dagAnalyses = [];
 
     // Match DAGs with jobs and perform impact analysis
     const matchedJobs = jobs
@@ -244,108 +420,78 @@ const run = async () => {
       }
     };
 
-    // Build the complete impacts section
-    const buildImpactsSection = (fileImpacts) => {
-      let content = '';
-      let totalDirect = 0;
-      let totalIndirect = 0;
+    // Build the configurable report
+    summary = buildConfigurableReport(fileImpacts, changedFiles, matchedJobs);
+
+    // Add summary of impacts (conditional)
+    if (configurableKeys.showSummaryOfImpacts) {
+      const totalDirect = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.direct.length, 0);
+      const totalIndirect = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.indirect.length, 0);
       
-      // Generate content for each file
-      Object.entries(fileImpacts).forEach(([filePath, impacts]) => {
-        const { direct, indirect, jobName } = impacts;
-        totalDirect += direct.length;
-        totalIndirect += indirect.length;
-
-        content += `### File: ${filePath}\n`;
-        content += `**Job:** ${jobName}\n\n`;
-        
-        content += `#### Directly Impacted (${direct.length})\n`;
-        direct.forEach(model => {
-          const url = constructItemUrl(model, dqlabs_createlink_url);
-          content += `- [${model?.name || 'Unknown'}](${url})\n`;
-        });
-
-        content += `\n#### Indirectly Impacted (${indirect.length})\n`;
-        indirect.forEach(model => {
-          const url = constructItemUrl(model, dqlabs_createlink_url);
-          content += `- [${model?.name || 'Unknown'}](${url})\n`;
-        });
-
-        content += '\n\n';
-      });
-
-      const totalImpacts = totalDirect + totalIndirect;
-      const shouldCollapse = totalImpacts > 20;
-
-      if (shouldCollapse) {
-        return `<details>
-<summary><b>Impact Analysis (${totalImpacts} total impacts - ${Object.keys(fileImpacts).length} files changed) - Click to expand</b></summary>
-
-${content}
-</details>`;
-      }
-      
-      return content;
-    };
-
-    // Add DAG analysis details
-    if (dagAnalyses.length > 0) {
-      summary += "### Changed Airflow DAGs\n\n";
-      
-      dagAnalyses.forEach(analysis => {
-        if (analysis.error) {
-          summary += `#### ${analysis.filePath}\n`;
-          summary += `❌ Error analyzing DAG: ${analysis.error}\n\n`;
-          return;
-        }
-
-        summary += `#### ${analysis.filePath}\n`;
-        summary += `- **DAG ID:** ${analysis.dagId || 'Not found'}\n`;
-        summary += `- **Schedule:** ${analysis.schedule || 'Not specified'}\n`;
-        summary += `- **Description:** ${analysis.description || 'No description'}\n`;
-        summary += `- **Tags:** ${analysis.tags.length > 0 ? analysis.tags.join(', ') : 'None'}\n`;
-        summary += `- **Tasks:** ${analysis.tasks.length}\n`;
-        
-        if (analysis.tasks.length > 0) {
-          summary += `  - ${analysis.tasks.join(', ')}\n`;
-        }
-        
-        if (analysis.dependencies.length > 0) {
-          summary += `- **Dependencies:**\n`;
-          analysis.dependencies.forEach(dep => {
-            summary += `  - ${dep.from} → ${dep.to}\n`;
-          });
-        }
-        
-        summary += "\n";
-      });
+      summary += `\n## Summary of Impacts\n`;
+      summary += `- **Total Directly Impacted:** ${totalDirect}\n`;
+      summary += `- **Total Indirectly Impacted:** ${totalIndirect}\n`;
+      summary += `- **Files Changed:** ${Object.keys(fileImpacts).length}\n`;
+      summary += `- **Jobs Matched:** ${matchedJobs.length}\n`;
     }
 
-    // Add impacts to summary
-    summary += buildImpactsSection(fileImpacts);
+    // Generate comprehensive JSON data
+    const comprehensiveJsonData = generateComprehensiveJSON(fileImpacts, changedFiles, matchedJobs);
 
-    // Add summary of total impacts
-    const totalDirect = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.direct.length, 0);
-    const totalIndirect = Object.values(fileImpacts).reduce((sum, impacts) => sum + impacts.indirect.length, 0);
-    
-    summary += `\n## Summary of Impacts\n`;
-    summary += `- **Total Directly Impacted:** ${totalDirect}\n`;
-    summary += `- **Total Indirectly Impacted:** ${totalIndirect}\n`;
-    summary += `- **Files Changed:** ${Object.keys(fileImpacts).length}\n`;
-    summary += `- **Jobs Matched:** ${matchedJobs.length}\n`;
-
-    // Post comment
+    // Post or update comment
     if (github.context.payload.pull_request) {
       try {
         const octokit = github.getOctokit(githubToken);
-        await octokit.rest.issues.createComment({
-          owner: github.context.repo.owner,
-          repo: github.context.repo.repo,
-          issue_number: github.context.payload.pull_request.number,
-          body: summary,
+        const { owner, repo } = github.context.repo;
+        const issue_number = github.context.payload.pull_request.number;
+        
+        // Get existing comments to find our bot's comment
+        const comments = await octokit.rest.issues.listComments({
+          owner,
+          repo,
+          issue_number,
         });
+        
+        // Find existing comment from github-actions[bot] with our impact analysis
+        const existingComment = comments.data.find(comment => 
+          comment.user.type === 'Bot' && 
+          comment.user.login === 'github-actions[bot]' &&
+          comment.body.includes('## Airflow DAG Impact Analysis Report')
+        );
+        
+        // Add JSON data as collapsible section
+        let finalSummary = summary;
+        finalSummary += "\n### 📎 Complete Impact Analysis Data\n";
+        finalSummary += `<details>\n<summary><b>View Complete JSON Data</b></summary>\n\n`;
+        finalSummary += "```json\n";
+        finalSummary += comprehensiveJsonData;
+        finalSummary += "\n```\n\n";
+        finalSummary += "*This JSON contains all impact analysis data regardless of display preferences.*\n";
+        finalSummary += `</details>\n\n`;
+        
+        // Create or update comment with the JSON data
+        if (existingComment) {
+          core.info(`Updating existing comment ${existingComment.id} with JSON data`);
+          await octokit.rest.issues.updateComment({
+            owner,
+            repo,
+            comment_id: existingComment.id,
+            body: finalSummary,
+          });
+          core.info('Successfully updated existing impact analysis comment');
+        } else {
+          core.info('Creating new impact analysis comment with JSON data');
+          await octokit.rest.issues.createComment({
+            owner,
+            repo,
+            issue_number,
+            body: finalSummary,
+          });
+          core.info('Successfully created new impact analysis comment');
+        }
+        
       } catch (error) {
-        core.error(`Failed to create comment: ${error.message}`);
+        core.error(`Failed to post/update comment: ${error.message}`);
       }
     }
 
