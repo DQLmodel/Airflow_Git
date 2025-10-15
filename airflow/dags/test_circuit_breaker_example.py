@@ -57,6 +57,7 @@ with DAG(
         on_failure_callback = [dq_task_failure_callback]
     )
 
-    task1 >> [cond_false_sco, cond_true_sco] >> task2 
+main
     task1 >> [cond_true, cond_false] >> task2 >> task3
-    task1 >> [cond_false_sco, cond_true_sco] >> task2 
+# checking testing ismav
+Sample
