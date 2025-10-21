@@ -41,9 +41,7 @@ with DAG(
     #     task_id="cond_false_sco",
     #     python_callable=lambda: False,
     # )
-    # cond_true_sco = ShortCircuitOperator(
-    #     task_id="cond_true_sco",
-    #     python_callable=lambda: True,
+    # cond_true_sc
     # )
     task2 = BashOperator(
         task_id='example_elt_job_2',
