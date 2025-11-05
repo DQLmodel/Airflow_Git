@@ -57,7 +57,7 @@ def get_snowflake_connection():
         except (OperationalError, Exception) as e:
             if attempt == MAX_RETRIES - 1:
                 raise AirflowFailException(f"Failed to connect to Snowflake after {MAX_RETRIES} attempts: {str(e)}")
-            print(f"Connection attempt {attempt + 1} failed. Retrying in {RETRY_DELAY} seconds...")
+            print(f"Connection attempt {attempt + 1} failed. Retrying in {RETRY_DELAY} seconds.....")
             time.sleep(RETRY_DELAY)
     raise AirflowFailException(f"Failed to connect to Snowflake after {MAX_RETRIES} attempts")
 
