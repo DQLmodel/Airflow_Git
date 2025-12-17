@@ -228,7 +228,10 @@ const generateComprehensiveJSON = (fileImpacts, changedFiles, matchedJobs) => {
   jsonData.summary.total_direct_assets = jsonData.asset_impacts.direct.length;
   jsonData.summary.total_indirect_assets = jsonData.asset_impacts.indirect.length;
 
-  return JSON.stringify(jsonData, null, 2);
+  return {
+    jsonString: JSON.stringify(jsonData, null, 2),
+    jsonObject: jsonData
+  };
 };
 
 // Build the new configurable report structure
@@ -251,8 +254,8 @@ const buildConfigurableReport = (fileImpacts, changedFiles, matchedJobs) => {
   // 2. Job information section (conditional)
   if (configurableKeys.showJob && matchedJobs.length > 0) {
     report += "### Matched Jobs\n";
-    matchedJobs.forEach(job => {      // Use connection_name if available, fallback to asset_name, then connection_id, then filePath
-      const connectionName = job.connection_name || job.asset_name || job.connection_id || job.filePath;
+    matchedJobs.forEach(job => {
+      const connectionName = job.connection_name || job.connection_id || job.filePath;
       report += `- **${job.name}** (${connectionName})\n`;
     });
     report += "\n";
@@ -438,7 +441,63 @@ const run = async () => {
     }
 
     // Generate comprehensive JSON data
-    const comprehensiveJsonData = generateComprehensiveJSON(fileImpacts, changedFiles, matchedJobs);
+    const { jsonString: comprehensiveJsonData, jsonObject: comprehensiveJsonObject } = generateComprehensiveJSON(fileImpacts, changedFiles, matchedJobs);
+
+    // Send metadata to DQLabs API endpoint
+    const sendMetadataToDQLabs = async (comprehensiveJsonObject) => {
+      try {
+        if (!dqlabs_base_url) {
+          core.warning('[sendMetadataToDQLabs] DQLabs base URL not provided, skipping metadata upload');
+          return;
+        }
+
+        const metadataUrl = `http://44.233.244.28:8000/api/lineage/github_action_metadata/`;
+        core.info(`[sendMetadataToDQLabs] Sending metadata to dqlabs: ${metadataUrl}`);
+        
+        const payload = {
+          markdown_report: comprehensiveJsonObject,
+          metadata: {
+            timestamp: new Date().toISOString(),
+            commit_sha: github.context.sha,
+            pull_request_number: github.context.payload.pull_request?.number || null,
+            pull_request_url: github.context.payload.pull_request?.html_url || null,
+            repository: github.context.repo.repo,
+            owner: github.context.repo.owner,
+            branch: github.context.payload.pull_request?.head?.ref || null,
+            base_branch: github.context.payload.pull_request?.base?.ref || null,
+            workflow_run_id: github.context.runId || null,
+            workflow_run_url: github.context.payload.repository?.html_url ? 
+              `${github.context.payload.repository.html_url}/actions/runs/${github.context.runId}` : null
+          },
+          changed_files: changedFiles,
+          configurable_keys: dqlabs_configurable_keys ? dqlabs_configurable_keys.split(',').map(k => k.trim()) : []
+        };
+
+        core.info(`[sendMetadataToDQLabs] Sending metadata to: ${metadataUrl}`);
+        
+        const response = await axios.post(metadataUrl, payload, {
+          headers: {
+            "Content-Type": "application/json"
+          },
+        });
+
+        core.info(`[sendMetadataToDQLabs] Successfully sent metadata. Status: ${response.status}`);
+        if (response.data) {
+          core.info(`[sendMetadataToDQLabs] Response: ${JSON.stringify(response.data)}`);
+        }
+      } catch (error) {
+        core.error(`[sendMetadataToDQLabs] Error sending metadata: ${error.message}`);
+        if (error.response) {
+          core.error(`[sendMetadataToDQLabs] Response status: ${error.response.status}`);
+          core.error(`[sendMetadataToDQLabs] Response data: ${JSON.stringify(error.response.data)}`);
+        }
+        // Don't fail the entire workflow if metadata upload fails
+        core.warning('[sendMetadataToDQLabs] Continuing despite metadata upload failure');
+      }
+    };
+
+    // Send metadata to DQLabs endpoint (JSON report object)
+    await sendMetadataToDQLabs(comprehensiveJsonObject);
 
     // Post or update comment
     if (github.context.payload.pull_request) {
