@@ -251,8 +251,9 @@ const buildConfigurableReport = (fileImpacts, changedFiles, matchedJobs) => {
   // 2. Job information section (conditional)
   if (configurableKeys.showJob && matchedJobs.length > 0) {
     report += "### Matched Jobs\n";
-    matchedJobs.forEach(job => {
-      report += `- **${job.name}** (${job.filePath})\n`;
+    matchedJobs.forEach(job => {      // Use connection_name if available, fallback to asset_name, then connection_id, then filePath
+      const connectionName = job.connection_name || job.asset_name || job.connection_id || job.filePath;
+      report += `- **${job.name}** (${connectionName})\n`;
     });
     report += "\n";
   }
